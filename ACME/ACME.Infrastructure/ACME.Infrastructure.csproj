@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ACME.Application\ACME.Application.csproj" />
+    <ProjectReference Include="..\ACME.Domain\ACME.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

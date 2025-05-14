@@ -17,6 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ACME.Application\ACME.Application.csproj" />
+    <ProjectReference Include="..\ACME.Domain\ACME.Domain.csproj" />
+    <ProjectReference Include="..\ACME.Infrastructure\ACME.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
